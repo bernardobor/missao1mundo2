@@ -1,0 +1,47 @@
+/* Definindo uma classe para a logotipo */
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Formatação das áreas semânticas */
+header, footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Características tipográficas globais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Explorando as possibilidades da visualização no modo flex */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Para expandir e preencher o restante da altura disponível */
+}
+
+/* Posicionamento adequado das áreas semânticas */
+header {
+    order: 1; /* Define a ordem de exibição no modo flex */
+}
+
+main {
+    order: 2;
+}
+
+footer {
+    order: 3;
+}

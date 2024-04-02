@@ -1,0 +1,17 @@
+/* Formatação da área de receitas */
+.area-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Formatação dos painéis de receitas */
+.receita {
+    flex: 0 0 calc(30% - 20px); /* Ajustando a largura dos cards */
+    margin: 10px; /* Espaçamento entre os cards */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
